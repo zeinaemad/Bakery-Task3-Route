@@ -127,27 +127,26 @@ body{
     width: 45%;
     display: inline-block;
     height: 100vh;
-    overflow: auto;
+    /*overflow: auto;*/
     margin-top: 60px;
 
 }
-.main-cont img{
+.main-img1 img{
+    width: 550px;
+    height: 500px;
+    padding-left: 150px;
 
-    width: 660px;
-    height: 600px;
-    padding-top: 100px;
-    padding-left: 100px;
-   
 }
+
 .inner{
-    padding-top: 120px;
+    padding-top: 130px;
     padding-left: 100px;
 }
 
 .inner h2{
     font-family: "Alegreya", serif;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 32px;
     color: rgb(48, 48, 48);
 }
 
@@ -155,7 +154,7 @@ body{
     font-family: "Alegreya Sans", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(104, 104, 104);
     line-height: 32px;
 }
@@ -171,14 +170,14 @@ body{
     font-family: "Alegreya Sans", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(104, 104, 104);
     line-height: 65px;
 
 }
 .icon svg{
-    height: 35px;
-    width: 45px;
+    height: 28px;
+    width: 35px;
     padding-right: 10px;
     margin: 0;
     padding-bottom: 0;
@@ -188,28 +187,31 @@ body{
 .location-section{
     background-color: #F8F8F8;
     height: 100vh;
+    width: 100%;
+    margin-top: 10px;
 }
 
 .location-container{
     width: 45%;
     display: inline-block;
     height: 100vh;
-    overflow: auto; 
-    margin-top: 50px;
+
+}
+.location-img2 img{
+    width: 600px;
+    height: 500px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.location-img2 img{
 
 }
 .inner-location{
-    padding-top: 145px;
     padding-left: 180px;
-    margin: auto;
+
     
 }
-.location-container img{
-    width: 620px;
-    height: 510px;
-    padding-top: 50px;
-    padding-left: 100px;
-}
+
 .location-container h2{
     font-family: "Alegreya", serif;
     font-weight: 400;
@@ -232,6 +234,7 @@ body{
     height: 100vh;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 .our-baking h2{
     font-family: "Alegreya", serif;
@@ -254,8 +257,9 @@ body{
 .baking-items{
     width: 22%;
     text-align: center;
-    padding: 20px 38px;
+    padding: 20px 30px;
     float: left;
+    margin: 20px;
     
 
 }
@@ -264,6 +268,7 @@ body{
     height: 300px;
     width: 380px;
     text-align: center;
+
 }
 
 .baking-items h3{
