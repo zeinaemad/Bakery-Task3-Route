@@ -203,9 +203,7 @@ body{
     padding-top: 100px;
     padding-left: 100px;
 }
-.location-img2 img{
 
-}
 .inner-location{
     padding-left: 180px;
 
@@ -335,4 +333,25 @@ body{
 .sora-container{
     padding-left: 220px;
 }
+.contact-list{
+    padding: 0;
+}
+.contact-list li{
 
+    list-style: none;
+    font-family: "Alegreya Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: rgb(104, 104, 104);
+    line-height: 65px;
+    
+
+}
+.svg-icon svg{
+    height: 25px;
+    width: 35px;
+    padding-right: 0px;
+    margin: 0;
+    padding-bottom: 0;
+}
